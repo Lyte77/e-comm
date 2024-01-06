@@ -13,7 +13,7 @@ const YearlySale = () =>{
                     <h2 className="display pb-5 text-uppercase
                     text-dark">New year sale</h2>
                     <a href="#" className="btn2 btn-medium
-                    btn-dark text-uppercase btn-round"></a>
+                    btn-dark text-uppercase btn-round">Shop</a>
                 </div>
             </div>
             <div className="col-md-6 col-sm-12"></div>
