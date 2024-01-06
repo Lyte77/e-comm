@@ -4,6 +4,7 @@ import SliderComponent from "./components/SliderComponent";
 import CompanyServices from "./components/CompanyServices";
 import MobileComponent from "./components/Mobile";
 import WatchesComponent from "./components/Watches";
+import YearlySale from "./components/YearlySale";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -19,6 +20,7 @@ function App(){
         <CompanyServices />
         <MobileComponent />
         <WatchesComponent />
+        <YearlySale />
     </div>
   )
 }
