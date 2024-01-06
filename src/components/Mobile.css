@@ -1,0 +1,53 @@
+.image-holder{
+    position: relative;
+    display: inline-block;
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+}
+
+.image-holder:hover .button{
+   opacity: 1;
+} 
+
+.card-title{
+    position: relative;
+    margin-left: 10px;
+    color: red;
+}
+
+.card-title a{
+    left: 5px;
+}
+
+
+@media (max-width:769px){
+    
+    .button{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        /* transition: opacity 0.3s ease; */
+    }
+  
+    /* @media (hover: none) {
+        .image-holder .button{
+            opacity: 1;
+        } 
+        
+    } */
+       
+
+   
+}
+
+    
+     
