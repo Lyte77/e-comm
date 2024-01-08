@@ -1,4 +1,5 @@
 import React from "react";
+import "./subscribe.css"
 
 const SubscriberComponent = () =>{
     return(
@@ -15,7 +16,7 @@ const SubscriberComponent = () =>{
                                 text-uppercase text-light">
                                     Subscribe To Us Now
                                 </h2>
-                                <p>Get latest news, updates and deals directly mailed to
+                                <p className="text-light">Get latest news, updates and deals directly mailed to
                                     your inbox
                                 </p>
                             </div>
@@ -26,7 +27,7 @@ const SubscriberComponent = () =>{
                                     <input className="form-control btn-rounded-none"
                                     type="email" name="EMAIL" placeholder="Your email address here"
                                     required="" />
-                                    <button className=" btn-medium btn-primary text-uppercase 
+                                    <button className="sub-btn  btn-medium btn-primary text-uppercase 
                                     btn-rounded-none" type="submit" name="subscribe">Subscribe</button>
                                 </div>
                             </form>

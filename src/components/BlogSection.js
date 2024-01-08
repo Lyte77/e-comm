@@ -21,8 +21,8 @@ const BlogSection = () =>{
                     </div>
                     <div className="post-grid d-flex flex-wrap 
                     justify-content-between">
-                        <div className="col-lg-4 col-sm-12">
-                            <div className="card border-none me-3">
+                        <div className="col-lg-4 col-sm-12 pt-4">
+                            <div className="card border-none me-3 ">
                                 <div className="card-image">
                                     <img src={Image12} alt="" className="img-fluid"/>
                                 </div>
@@ -37,7 +37,7 @@ const BlogSection = () =>{
                                 </h3>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-sm-12">
+                        <div className="col-lg-4 col-sm-12 pt-4">
                             <div className="card border-none me-3">
                                 <div className="card-image">
                                     <img src={Image13} alt="" className="img-fluid"/>
@@ -54,7 +54,7 @@ const BlogSection = () =>{
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-sm-12">
+                        <div className="col-lg-4 col-sm-12 pt-4">
                             <div className="card border-none me-3">
                                 <div className="card-image">
                                     <img src={Image14} alt="" className="img-fluid"/>

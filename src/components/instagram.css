@@ -1,0 +1,21 @@
+#instagram{
+    margin-left: 25px;
+}
+
+
+.insta-image{
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+
+
+
+@media (max-width:769px){
+    .insta-image{
+        width: 200px;
+        height: 200px;
+    }
+
+}

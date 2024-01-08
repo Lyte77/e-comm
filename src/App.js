@@ -8,6 +8,9 @@ import YearlySale from "./components/YearlySale";
 import BlogSection from "./components/BlogSection";
 import TestimonialComponent from "./components/Testimonials";
 import SubscriberComponent from "./components/Subscribe";
+import InstaComponent from "./components/Instagram";
+import FooterComponent from "./components/Footer";
+import FooterBottom from "./components/FooterBottom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -27,6 +30,10 @@ function App(){
         <BlogSection />
         <TestimonialComponent />
         <SubscriberComponent />
+        <InstaComponent />
+        <FooterComponent />
+        <FooterBottom />
+
     </div>
   )
 }
